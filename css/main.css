@@ -1,3 +1,24 @@
-section {
-  font-family: Open sans, sans-serif;
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+.btn {
+  color: #fff;
+  background-color: #f2f2f2;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .one {
+    padding: .5em;
+  }
+
 }
